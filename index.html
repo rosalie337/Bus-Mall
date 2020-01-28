@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Market Research Bus Mall</title>
+    <h1>Market Reseach</h1>
+</head>
+<body>
+    <div id="radio-text">
+        <label>
+            <input class="radio-buttons" type=radio name='Option 1' value='Option 1' checked></intput>
+            <span>Option 1</span>
+        </label>
+        <label>
+            <input class="radio-buttons" type=radio name='Option 2' value='Option 2'></intput>
+            <span>Option 2</span>
+        </label>
+        <label>
+            <input class="radio-buttons" type=radio name='Option 3' value='Option 3'></intput>
+            <span>Option 3</span>
+        </label>
+        <br></br>
+            <button id="submit-button">Submit</button>
+            <button id="reset-button">Reset</button> 
+    <section id="results">
+        <p id="results-display"></p>
+            <ul id="votes-display" style="list-style-type:none;" class="hidden">
+                <li>Bag <span id='bag-votes'>0</span></li>
+                <li>Banana Slicer <span id='Banana-votes'>0</span></li>
+                <li><span id='-votes'>0</span></li>     
+            </ul>
+    </section>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
