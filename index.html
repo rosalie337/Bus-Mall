@@ -9,28 +9,28 @@
     <h1>Market Reseach</h1>
 </head>
 <body>
-    <div id="radio-text">
+    <form>
         <label>
-            <input class="radio-buttons" type=radio name='Option 1' value='Option 1' checked></intput>
-            <span>Option 1</span>
+            <input id="option1" type=radio name='product'checked></input>
+            <span id="option1"></span>
         </label>
         <label>
-            <input class="radio-buttons" type=radio name='Option 2' value='Option 2'></intput>
-            <span>Option 2</span>
+            <input id="option2" type=radio name='product'></input>
+            <spanm id="option2"></span>
         </label>
         <label>
-            <input class="radio-buttons" type=radio name='Option 3' value='Option 3'></intput>
-            <span>Option 3</span>
+            <input id="option3" type=radio name='product' value=''></input>
+            <spanid="option2"></spanid="option2">
         </label>
+    </form>
         <br></br>
-            <button id="submit-button">Submit</button>
+            <button id="submit-button">Submit Vote</button>
             <button id="reset-button">Reset</button> 
     <section id="results">
         <p id="results-display"></p>
             <ul id="votes-display" style="list-style-type:none;" class="hidden">
-                <li>Bag <span id='bag-votes'>0</span></li>
-                <li>Banana Slicer <span id='Banana-votes'>0</span></li>
-                <li><span id='-votes'>0</span></li>     
+                <li><span id='bag-votes'></span></li>
+                <li><span id='Banana-votes'></span></li>    
             </ul>
     </section>
     <script type="module" src="app.js"></script>
